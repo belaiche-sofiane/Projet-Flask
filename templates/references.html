@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>{{titre}}</title>
+
+{% endblock %}
+
+
+
+
+{% block body %}
+<h1>Ici vous trouverez la liste de tout les livres présent dans notre base de données</h1>
+<div>
+{% include 'data.html' %}
+</div>
+{% endblock %}
+
+{% block footer%}
+    
+{% endblock%}
